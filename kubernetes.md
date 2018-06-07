@@ -27,5 +27,14 @@
 * 用來執行和管理容器
 * Pod 最後執行在 Node 上
 
+![](/assets/Kubernetes Architecture.webp)
+
+## Etcd
+
+* 高可用的 key/value 儲存系統
+* 靈感來自於 Zookeeper 和 Doozer
+* 做為系統設定的儲存中心
+* 重要資料都是持久性存在
+
 
 
