@@ -10,17 +10,22 @@
 
 ## Replication Controller
 
-用來控制和管理 Pod 備份
+* 用來控制和管理 Pod 備份
 
 ## Service
 
-定義 Pod 的邏輯集合和存取這個 Pod 集合的策略
+* 定義 Pod 的邏輯集合和存取這個 Pod 集合的策略
 
 ## Label
 
-用於區分 Pod、Service、Replication Controller 的鍵值對（key/value pairs）
+* 用於區分 Pod、Service、Replication Controller 的鍵值對（key/value pairs）
 
+## Node
 
+* Kubernetes 的操作單元
+* 也稱為 Worker 或 Minion
+* 用來執行和管理容器
+* Pod 最後執行在 Node 上
 
 
 
