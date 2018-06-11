@@ -8,5 +8,7 @@ CCM 的功能大部份來自 KCM
 
 ## Replication Controller
 
+Replication Controller 簡稱 RC，RC 可以保證在任意時間運行 Pod 的副本數量和 Pod 的健康狀態，能夠保證 Pod 總是可用的。
+
 
 
