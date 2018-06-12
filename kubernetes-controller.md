@@ -21,7 +21,11 @@ Replication Controller 簡稱 RC，RC 可以保證在任意時間運行 Pod 的�
 
 管理維護 Namespace，定期清理無效的 Namespace，包含 Namespace 下的 API 物件，像 Pod、Service、Secret 等。
 
+## Service Controller
 
+同時監控 Service 和 Node 的變化，針對任何新建或更新的服務，ServiceController 用 Load Balancer Provider 來實現 Load Balancer 的配置。
 
+## Endpoints Controller
 
+負責生成和維護所有 Endpoints 對象的控制器，並監聽 Service 和對應的 Pod 副本變化。
 
