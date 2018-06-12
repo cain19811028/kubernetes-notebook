@@ -38,5 +38,15 @@
 * 做為系統設定的儲存中心
 * 重要資料都是持久性存在
 
+---
 
+![](/assets/kubernetes node.jpg)
+
+## Kubelet
+
+負責管理容器，會從 API Server 接收 Pod 建立的請求，啟動和停止容器，監控容器執行狀態並且匯報給 API Server
+
+## Kubernetes Proxy
+
+負責為 Pod 建立代理服務，從 API Server 取得所有 Service，並根據 Service 資訊建立代理服務，實現 Service 到 Pod 的請求路由和轉發
 
