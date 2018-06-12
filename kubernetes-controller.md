@@ -29,3 +29,11 @@ Replication Controller 簡稱 RC，RC 可以保證在任意時間運行 Pod 的�
 
 負責生成和維護所有 Endpoints 對象的控制器，並監聽 Service 和對應的 Pod 副本變化。
 
+1. 如果監測到 Service 被刪除，則刪除和 Service 同名的 Endpoints 對象
+2. 如果監測到 Service 被創建或修改，則根據 Service 訊息獲得相關的 Pod 列表，然後創建或更新 Service 對應的 Endpoints 對象
+3. 如果監測到 Pod 的事件，則更新 Service 對應的 Endpoints 對象
+
+## Service Account Controller
+
+管理維護 Service Account，為每個 Namespace 建立預設的 Service Account 和 Service Account Secret。
+
