@@ -37,3 +37,13 @@ Replication Controller 簡稱 RC，RC 可以保證在任意時間運行 Pod 的�
 
 管理維護 Service Account，為每個 Namespace 建立預設的 Service Account 和 Service Account Secret。
 
+## Daemon Set Controller
+
+管理維護 Daemon Set，負責建立 Daemon Pod，保障指定的 Node 上正常執行 Daemon Pod
+
+## Job Controller
+
+管理維護 Job，為 Job 建立 臨時性工作 Pod，保障 Job 完成指定的工作數目
+
+
+
