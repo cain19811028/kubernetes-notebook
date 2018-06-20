@@ -1,5 +1,13 @@
 # Kubernetes 學習筆記 - 學習管道
 
+## 線上文件
+
+Kubernetes 中文社區：[https://www.kubernetes.org.cn/docs](https://www.kubernetes.org.cn/docs)
+
+Kubernetes.io：[https://kubernetes.io/cn/docs/](https://kubernetes.io/cn/docs/)
+
+kubernetes.kansea.com：[http://kubernetes.kansea.com/docs/](http://kubernetes.kansea.com/docs/)
+
 ## 書籍
 
 已購入：
