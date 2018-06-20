@@ -38,11 +38,14 @@ sudo chmod u+s $\(brew --prefix\)/opt/docker-machine-driver-xhyve/bin/docker-mac
 brew install kubectl
 ```
 
-啟動 Minikube：
+啟動 Minikube Cluster：
 
 ```
 minikube start --vm-driver=xhyve
 ```
 
+啟用 Kubernetes Dashboard
 
-
+```
+minikube dashboard
+```
