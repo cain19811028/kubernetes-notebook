@@ -92,3 +92,27 @@ kubectl run hello-node --image=hello-node:v1 --port=8080
 kubectl expose deployment hello-node --type=LoadBalancer
 minikube service hello-node
 ```
+
+## 清理
+
+---
+
+清理在 Cluster 中建立的資源：
+
+```
+kubectl delete service hello-node
+kubectl delete deployment hello-node
+```
+
+停止 Minikube VM
+
+```
+minikube stop
+eval $(minikube docker-env -u)
+```
+
+刪除 Minikube VM
+
+```
+minikube delete
+```
