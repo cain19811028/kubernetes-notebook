@@ -56,5 +56,39 @@ minikube start --vm-driver=xhyve
 minikube dashboard
 ```
 
+## 建立 Docker container image
 
+---
 
+使用 Minikube Docker daemon
+
+```
+eval $(minikube docker-env)
+```
+
+建立 Docker image
+
+```
+docker build -t hello-node:v1 .
+```
+
+## 建立 Deployment
+
+---
+
+使用 kubectl 執行指令建立一個管理 Pod 的 Deployment
+
+```
+kubectl run hello-node --image=hello-node:v1 --port=8080
+```
+
+## 建立 Service
+
+---
+
+使用 kubectl expose 指令將 Pod 顯示在 Public Internet：
+
+```
+kubectl expose deployment hello-node --type=LoadBalancer
+minikube service hello-node
+```
