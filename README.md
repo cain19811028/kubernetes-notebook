@@ -1,4 +1,4 @@
-# Kubernetes 學習筆記 - 學習管道
+# Kubernetes 學習筆記
 
 ## 線上文件
 
