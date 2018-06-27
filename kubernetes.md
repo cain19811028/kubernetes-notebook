@@ -22,11 +22,11 @@
 
 * 用於區分 Pod、Service、Replication Controller 的鍵值對（key/value pairs）
 
-## Node
+## Node（Minion）
 
 * Kubernetes 的操作單元
-* 也稱為 Worker 或 Minion
-* 用來執行和管理容器
+* 用來管理和執行容器
+* 負責監控所有容器執行的健康狀態
 * Pod 最後執行在 Node 上
 
 ![](/assets/Kubernetes Architecture.webp)
