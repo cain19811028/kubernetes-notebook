@@ -4,5 +4,6 @@
 * [Kubernetes](kubernetes.md)
 * [Kubernetes Pod Lifecycle](kubernetes-pod-lifecycle.md)
 * [Kubernetes Controller Manager](kubernetes-controller.md)
+* [Kubernetes Release Versions](kubernetes-release-versions.md)
 * [Minikube](minikube.md)
 
