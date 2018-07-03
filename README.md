@@ -15,6 +15,7 @@ Kubernetes 工具集：[https://hk.saowen.com/a/15a5d56d8eb4dc600d7b1032482a9325
 已購入：
 
 * 2018-02-08：佳魁．吳龍輝 - Google 御用 Docker 叢集管理 Kubernetes（[9789863796206](https://www.tenlong.com.tw/products/9789863796206)）
+* 2017-09-01：電子工業．閆健勇 - Kubernetes 權威指南（紀念版）（[9787121323515](https://book.douban.com/subject/27112874/)）
 
 
 
